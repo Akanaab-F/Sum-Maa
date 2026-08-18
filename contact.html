@@ -61,7 +61,15 @@
             <p class="eyebrow">Contact Form</p>
             <h2>Send us a message</h2>
             <p>Share a little about how we can help, and a member of our team will get back to you.</p>
-            <form class="contact-form" aria-label="Contact form">
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/xaewprkn"
+              method="POST"
+              accept-charset="UTF-8"
+              aria-label="Contact form"
+            >
+              <input type="hidden" name="_subject" value="New Contact Message - SUM-MAA Foundation" />
+              <input type="hidden" name="_next" value="https://www.sum-maafoundation.org/thanks.html" />
               <div class="field-row">
                 <div>
                   <label for="contact-name">Full Name</label>
